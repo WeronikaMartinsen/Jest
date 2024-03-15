@@ -1,0 +1,28 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "This is the test for the Unit Testing.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test-unit",
+    "test-unit": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeronikaMartinsen/Jest.git"
+  },
+  "author": "Weronika Martinsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeronikaMartinsen/Jest/issues"
+  },
+  "homepage": "https://github.com/WeronikaMartinsen/Jest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-jest": "^27.9.0",
+    "jest": "^29.2.0"
+  }
+}
